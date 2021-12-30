@@ -34,9 +34,9 @@ export function createShowHideFn(editor: Editor) {
                 },
             },
             {
-                $elem: $('<span>30%</span>'),
+                $elem: $('<span>40%</span>'),
                 onClick: (editor: Editor, $node: DomElement) => {
-                    $node.attr('width', '30%')
+                    $node.attr('width', '40%')
                     $node.removeAttr('height')
 
                     // 返回 true，表示执行完之后，隐藏 tooltip。否则不隐藏。
@@ -44,9 +44,9 @@ export function createShowHideFn(editor: Editor) {
                 },
             },
             {
-                $elem: $('<span>50%</span>'),
+                $elem: $('<span>45%</span>'),
                 onClick: (editor: Editor, $node: DomElement) => {
-                    $node.attr('width', '50%')
+                    $node.attr('width', '45%')
                     $node.removeAttr('height')
 
                     // 返回 true，表示执行完之后，隐藏 tooltip。否则不隐藏。
