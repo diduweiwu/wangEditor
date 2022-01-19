@@ -1,5 +1,13 @@
 # wangEditor
 
+```text
+做了一些改进
+1.为图片添加了更多的缩放比例
+2.设置默认字体为 仿宋GB2312
+用法,编译后在使用的项目index.html引入 wangeditor.min.js  后续使用 window.E 进行初始化就好了
+
+```
+
 <!-- Badge -->
 ![Stars badge](https://img.shields.io/badge/stars-11.2-green)
 ![Forks badge](https://img.shields.io/badge/forks-2.5k-brightgreen)
